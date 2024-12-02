@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: bb123d2c-8da3-446f-8017-abe2f51ddf00
+  title: ASFV Pangenome Analysis
+  subtitle: Building a Graph Assembly to Capture Variation
+  subject: Genome Assembly
+  open_access: true
+  keywords: [pangenome, ASFV]
+  date: 2024-12-01
+  authors:
+    - name: Jan Emmanuel Samson
+      corresponding: true
+      affiliation: University of the Philippines Diliman
+      email: jgsamson@up.edu.ph
+      github: dagsdags212
+  affiliations:
+    - id: upd
+      institution: University of the Philippines Diliman
+      department: Department of Computer Science
+      city: Quezon City
+      country: Philippines
+  exports:
+    - format: pdf
+      article: paper.md
+    - format: docx
+      article: paper.md
+    - format: jats
+      article: paper.md
+      sub_articles:
+        - overview.ipynb
+  requirements:
+    - requirements.txt
+  banner: ./images/banner.webp
+site:
+  title: ASFV Pangenome Analysis
+  template: article-theme
+  actions:
+    - title: Download PDF

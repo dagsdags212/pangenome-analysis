@@ -1,0 +1,4 @@
+format: jb-book
+root: paper
+chapters:
+  - file: retrieving-genome-data.ipynb
