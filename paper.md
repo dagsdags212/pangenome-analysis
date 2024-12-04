@@ -17,7 +17,6 @@ export:
 This article was written as part of the course requirements for BIOINFO 221.
 ```
 
-
 +++ { "part": "abstract" }
 
 In Progress...
@@ -46,8 +45,6 @@ The African Swine Fever virus (ASFV) is a 200 nm diameter icosahedral DNA virus 
 Annotated genome of ASFV indicating transcription start sites (TSS) and early and late genes [@doi:10.1128/jvi.00119-20].
 :::
 
-
-
 It encodes 150-200 viral proteins, 68 of which are structural proteins. P72 is a major capsid protein commonly used to genotype viral strains due to its conservativeness. However, @doi:10.3201/eid2102.140649 suggests that P72 phylogenetic analysis does not accurately define ASFV hemadsorption inhibition assay (HAI) serogroups. The variation in genome size is due to the repeat and loss of certain genomic sequences across strains. 
 
 :::{figure} https://www.frontiersin.org/files/Articles/715582/fimmu-12-715582-HTML-r1/image_m/fimmu-12-715582-g001.jpg
@@ -58,15 +55,17 @@ It encodes 150-200 viral proteins, 68 of which are structural proteins. P72 is a
 The ASFV structure.
 :::
 
-ASFV can be classified into 24 genotypes on the basis of the _B646L_ gene and into 8 serotypes on the basis of anti-body mediated hemadsorption inhibition.
+ASFV can be classified into 24 genotypes on the basis of the _B646L_ gene and into 8 serotypes on the basis of anti-body mediated hemadsorption inhibition. Serotypes are based on phylogenetic grouping of the CD2v viral protein encoded by the _EP402R_ gene. These methods allow relatively fast and easy typing of ASFV strains, and remain the first approach for identification of the origin of ASFV in case of introduction into new territories.
 
 ### Transmission
 
 The first case of African swine fever was reported in 1921 and ever since, ASFV has escaped from the African continent and spread dramatically. In 2007, ASFV was introduced into Georgia and further spread to the Trans-Caucasian region until it reached Russia and neighboring members of the European Union in 2014. In 2018, the virus crossed the border of China which is currently the world's larget pig produced. Now, it is spread across Southeast Asian countries, causing a major epidemic in countries such as Vietnam and the Philippines. Currently, there is no commercial vaccine avaialble for control of ASFV tranmission.
 
-### Pathology
+### Variation
 
-ASFV primarily targets monocyte-macrophages to cause a severe hemorrhagic disease in pigs that often results in 100% mortality.
+<!-- expound of multi-gene familiy (MGF) variation -->
+
+ASFV has an estimated substitution rate $\mu \approx 6.7 \times 10^{-4}$ [@doi:10.1371/journal.pone.0069662] which is lower compared to RNA viruses such as the influenza virus with $\mu \approx 10^{-3}$ [@doi:10.1093/molbev/msh109], but higher compared to other large dsDNA viruses such as herpes simplex type I virus with $\mu \approx 10^{-5}$ [@doi:10.1038/nrg2323]. The high substitution rates may indicate a high level of variability in the central region which was thought to be conserved. This high level of variability may have important implications for understanding the puzzling adaptive capability and host range of ASFV under the context of evolutionary adaptation.
 
 ## Pangenomes
 
